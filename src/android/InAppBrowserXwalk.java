@@ -12,7 +12,7 @@ import org.json.JSONObject;
 import org.json.JSONException;
 
 import org.xwalk.core.XWalkView;
-import org.xwalk.core.XWalkResourceClient;
+import org.xwalk.core.XWalkUIClient;
 import org.xwalk.core.internal.XWalkViewInternal;
 import org.xwalk.core.internal.XWalkCookieManager;
 
