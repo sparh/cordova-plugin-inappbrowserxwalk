@@ -12,7 +12,7 @@ import org.json.JSONObject;
 import org.json.JSONException;
 
 import org.xwalk.core.XWalkView;
-import org.xwalk.core.XWalkResourceClient;
+import org.xwalk.core.XWalkUIClient;
 import org.xwalk.core.internal.XWalkViewInternal;
 import org.xwalk.core.internal.XWalkCookieManager;
 
@@ -56,7 +56,7 @@ public class InAppBrowserXwalk extends CordovaPlugin {
         return true;
     }
 
-    class MyResourceClient extends XWalkResourceClient {
+    class MyResourceClient extends XWalkUIClient {
            MyResourceClient(XWalkView view) {
                super(view);
            }
