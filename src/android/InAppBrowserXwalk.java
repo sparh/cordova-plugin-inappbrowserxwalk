@@ -1,6 +1,6 @@
-package com.example.plugin.InAppBrowserXwalk;
+package com.example.plugin.InAppBrowserXwalkSparh;
 
-import com.example.plugin.InAppBrowserXwalk.BrowserDialog;
+import com.example.plugin.InAppBrowserXwalkSparh.BrowserDialog;
 
 import android.content.res.Resources;
 import org.apache.cordova.*;
@@ -27,7 +27,7 @@ import android.widget.Toast;
 
 import android.webkit.WebResourceResponse;
 
-public class InAppBrowserXwalk extends CordovaPlugin {
+public class InAppBrowserXwalkSparh extends CordovaPlugin {
 
     private BrowserDialog dialog;
     private XWalkView xWalkWebView;
