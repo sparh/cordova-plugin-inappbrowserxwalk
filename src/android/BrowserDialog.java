@@ -1,4 +1,4 @@
-package com.example.plugin.InAppBrowserXwalk;
+package com.example.plugin.InAppBrowserXwalkSparh;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
