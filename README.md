@@ -18,7 +18,7 @@ https://www.npmjs.com/package/com.shoety.cordova.plugin.inappbrowserxwalk
 
 ### open
 ```js
-	var browser = window.inAppBrowserXwalk.open(url, options);
+	var browser = window.InAppBrowserXwalkSparh.open(url, options);
 ```
 Opens a new Crosswalk Webview in a dialog. The options parameter is optional, possible parameters
 are demonstrated under Examples. If you dont pass options, the browser will open with default options.
@@ -70,7 +70,7 @@ Removes the eventlistener for an event.
 		          };
 
     if( window.cordova && cordova.platformId === "android" ) {
-		var browser = window.inAppBrowserXwalk.open("http://google.de", options);
+		var browser = window.InAppBrowserXwalkSparh.open("http://google.de", options);
 
 		browser.addEventListener("loadstart", function ( url ) {
             console.log(url);
